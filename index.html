@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/8def35ed73.js" crossorigin="anonymous">
+
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+
+            </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Ruturaj</span> Ghumkar<br> from india</h1>
+                </div>
+               
+            
+        </div>
+        
+
+    </div>
+    <!-- --------------------------ABOUT SECTION-------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="images/new_logo.png" alt="" height="500dpi">  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>"Meet Ruturaj Dnyandev Ghumkar, a passionate and self-taught programmer with a diverse skillset in both Android and web development. Currently pursuing a B.E. in Information Technology at DIT Pune, Ruturaj is constantly exploring new tech stacks and open to opportunities to enhance their skills. A true problem solver,he has a proven track record of success, having won Hactoberfest swags twice. Check out Ruturaj's portfolio to see their impressive projects and experience for yourself."
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('Experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('Education')">
+                            Eduction
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>
+                                <span>Android Development</span>
+                                <br>
+                                Kotlin,native development,Desnigning
+                            </li>
+                            <li>
+                                <span>Backend Development</span>
+                                <br>
+                                Nodejs, Expressjs, MongoDB
+                            </li>
+                            <li>
+                                <span>Languages</span>
+                                <br>
+                                 C++, Python,java,kotlin
+                            </li>
+
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>
+                                <span>2021</span>
+                                <br>
+                                Intern at The sparks foundation
+                            </li>
+                            
+
+                            
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li>
+                                <span>2021-2024</span>
+                                <br>
+                                BE in Information Technology DIT Pimpri
+                            </li>
+                            <li>
+                                <span>2018-2020</span>
+                                <br>
+                                HSC from vivekanand college of kolhapur
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------services------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>
+                    Website Development
+                </h2>
+                <p>
+                    We all know that website is the most important part of any business and it's quite important to have a good website so that people can easily access your website and can get the information about your business and can contact you easily.
+
+                </p>
+                
+            </div>
+
+            <!-- <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>
+                    Problem Solving & error handling
+                </h2>
+                <p>
+                    Nowadays we are facing many problems while development in the tech stack and it's quite hectic to find out what could be the cause of that error or nevertheless how to find it's solution 
+                    that's why our team made an excellent app so that you can solve your errors within tiny span of time.
+
+                </p>
+                <a href="#">learn more</a>
+            </div> -->
+
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>
+                    Android Development
+                </h2>
+                <p>
+                    Android is the most popular operating system in the world and it's quite important to have an android app for your business so that people can easily access your app and can get the information about your business and can contact you easily.
+
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------portfolio---- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/chatapp.png" alt="">
+                <div class="layer">
+                    <h3>
+                        Chat App
+                    </h3>
+                    <p>
+                        A simple chat app with firebase authentication and realtime database 
+                    </p>
+                    <a href="https://github.com/ruturaj-gh/chatting_application"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/quotesapp.png" alt="">
+                <div class="layer">
+                    <h3>
+                        Quotes App
+                    </h3>
+                    <p>
+                        App that shows random quotes with author name and also you can share it with your friends
+                    </p>
+                    <a href="https://github.com/ruturaj-gh/quotesapp"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/paintapp.png" alt="">
+                <div class="layer">
+                    <h3>
+                        Paint App
+                    </h3>
+                    <p>
+                        A simple paint app with different colors based on canvas view
+                    </p>
+                    <a href="https://github.com/ruturaj-gh/Paint-App"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> rutughumkar33@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +(91) 9834268023</p>
+                <div class="social-icons">
+                    <a href="https://github.com/ruturaj-gh"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/ruturajgh"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/ruturaj-ghumkar-b002581b5/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/resume.docx" download="" class="btn btn2">Download Cv</a>
+
+                
+
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2022 All rights reserved | Designed by Ruturaj Ghumkar</p>
+    </div>
+
+</div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    
+
+    function openmenu(){
+         sidemenu.style.right="0";
+        
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        
+    }
+    
+</script>
+
+<script>
+
+function doPost(e) {
+  let response = ContentService.createTextOutput();
+  response.setHeader("Access-Control-Allow-Origin", "*"); 
+  return response;
+}
+    // const scriptURL = 'https://script.google.com/macros/s/AKfycbxIXGtjYufHhz5gGK4rCFKm05774TYHXGseQaQzmVPBKZIe47pQ4IQXQoiYHJyF5f4N/exec'
+    const scriptURL='https://script.google.com/macros/s/AKfycbxIC3JXznacbcQNZ-jPGpLaAnnRBWMmshFAXwgUC3kbS7JgrcteJK7uYmqAeWy58lr9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL,
+       { method: 'POST',
+        body: new FormData(form)
+    })
+        .then(response => {
+        setTimeout(function(){
+            msg.innerHTML="message has been sent successfully";
+        },100);
+        form.reset();
+    
+    }
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+</body>
+
+</html>
