@@ -492,6 +492,7 @@ nav .fas{
 #msg{
     color: #f8ffef62;
     margin-top: -30px;
-    margin-left: -75px;
+    
     display: block;
+    position: center;
 }
