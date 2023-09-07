@@ -405,7 +405,11 @@ nav .fas{
 @media only screen and (max-width: 600px)
 {
     #header{
-        background-image: url("images/profile_small.png");
+    background-image: url('https://readme-typing-svg.demolab.com/?lines=Hello there ! I am Ruturaj Ghumkar');
+    background-size:50%;
+    background-size: contain;
+
+    background-position: right;
     }
     .header-text{
         margin-top: 180%;
